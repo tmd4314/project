@@ -1,0 +1,1 @@
+import{r as s,o as n,c as r,a as o,t as l,b as i}from"./index-BmpVC2MD.js";const u={class:"about"},_={__name:"AboutView",setup(c){const t=s({});return n(()=>{fetch("/api/board").then(e=>e.json()).then(e=>t.value=e)}),(e,a)=>(i(),r("div",u,[a[0]||(a[0]=o("h1",null,"This is an about page",-1)),o("div",null,l(t.value.title),1)]))}};export{_ as default};
