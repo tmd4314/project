@@ -19,6 +19,7 @@ app.get("/api/board", (req, res) => {
 });
 
 // vue.js build 이후
+//
 
 const path = require('path');
 const publicPath = path.join(__dirname, 'public');
